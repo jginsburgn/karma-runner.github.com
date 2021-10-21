@@ -27,6 +27,10 @@ else
   cd $KARMA_REPO
 fi
 echo "Switching karma-runner/karma repository to $BRANCH..."
+echo "git ls-remote"
+git ls-remote
+echo "git show-ref"
+git show-ref
 git checkout --detach $BRANCH
 cd $DOCS_REPO
 
