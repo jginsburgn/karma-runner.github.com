@@ -23,7 +23,7 @@ if [ -d "$KARMA_REPO" ]; then
   git fetch
 else
   echo "Cloning karma-runner/karma repository..."
-  git clone https://github.com/karma-runner/karma.git
+  git clone https://github.com/jginsburgn/karma.git
   cd $KARMA_REPO
 fi
 echo "Switching karma-runner/karma repository to $BRANCH..."
