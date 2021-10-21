@@ -2,6 +2,41 @@
 editButton: false
 ---
 
+## [6.3.13](https://github.com/jginsburgn/karma/compare/v6.3.12...v6.3.13) (2021-10-21)
+
+
+### Bug Fixes
+
+* use JGINSBURGN_GITHUB_TOKEN secret as GITHUB_TOKEN ([0f35b75](https://github.com/jginsburgn/karma/commit/0f35b75c3d7bee313d7e5ab56107860aecccce7f))
+
+## [6.3.12](https://github.com/jginsburgn/karma/compare/v6.3.11...v6.3.12) (2021-10-21)
+
+
+### Bug Fixes
+
+* trigger release ([d56224a](https://github.com/jginsburgn/karma/commit/d56224a2a70f2818fae1f1cf9666750fa7619c0b))
+
+## [6.3.11](https://github.com/jginsburgn/karma/compare/v6.3.10...v6.3.11) (2021-10-21)
+
+
+### Bug Fixes
+
+* revert release.config.js ([02a8efe](https://github.com/jginsburgn/karma/commit/02a8efea385e77263545f9b15851cf56b7cb3fbd))
+
+## [6.3.5](https://github.com/karma-runner/karma/compare/v6.3.4...v6.3.5) (2021-10-20)
+
+
+### Bug Fixes
+
+* **client:** prevent socket.io from hanging due to mocked clocks ([#3695](https://github.com/karma-runner/karma/issues/3695)) ([105da90](https://github.com/karma-runner/karma/commit/105da90a9975c1050f96cda966bd30a3c677494e))
+
+## [6.3.4](https://github.com/karma-runner/karma/compare/v6.3.3...v6.3.4) (2021-06-14)
+
+
+### Bug Fixes
+
+* bump production dependencies within SemVer ranges ([#3682](https://github.com/karma-runner/karma/issues/3682)) ([36467a8](https://github.com/karma-runner/karma/commit/36467a8ac357108343dde4131ef34099004711e5)), closes [#3680](https://github.com/karma-runner/karma/issues/3680)
+
 ## [6.3.3](https://github.com/karma-runner/karma/compare/v6.3.2...v6.3.3) (2021-06-01)
 
 
